@@ -14,7 +14,6 @@ body{
 
 }
 .container{
-    width: 600px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -155,3 +154,40 @@ body{
     font-size: 19px;
     line-height: 1.8;
 }
+
+
+
+/* add features */
+ .feature{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+
+ }
+ .feature .container{
+    display: grid;
+
+    /* Very important line for responsive */
+    grid-template-columns: repeat(auto-fill ,minmax(300px,1fr));
+    grid-gap: 20px;
+ }
+ .feature .feat{
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 5px -3px black;
+    
+ }
+ .feature .feat i{
+    color: var(--main-color);
+    font-size: 50px;
+ }
+ .feature .feat h3{
+    font-weight: 800;
+    margin: 30px 0;
+ }
+ .feature .feat p{
+    line-height: 1.8;
+    color: #777;
+    font-size: 17px;
+ }
+/* end features */
