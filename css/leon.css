@@ -7,7 +7,9 @@
 body{
     font-family: "Work sans", sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* End global roles */
 .parent{
     background-color: #eee;
@@ -456,3 +458,42 @@ body{
 
 }
 /* end about */
+
+/* Start contact */
+.contact{
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-color);
+}
+.contact .text{
+    font-weight: 800;
+    font-size: 35px;
+    color: var(--secondary-color);
+    padding: 10px 0;
+}
+.contact .email{
+    font-weight: 800;
+    font-size: 35px;
+    color: #10cab7;
+}
+/* end contact */
+
+/* start footer */
+.footer .foot{
+    margin-left: 20px;
+}
+.footer .foot p{
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.footer .foot div{
+    display: inline-block;
+}
+.footer .foot div i{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+/* end footer */
